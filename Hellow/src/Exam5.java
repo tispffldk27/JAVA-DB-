@@ -9,7 +9,7 @@ public class Exam5 {
 		int year = 365;
 		int total = age * day * money * year;
 		
-		System.out.println("Áö±İ±îÁö ¸ÔÀº±İ¾×Àº? "+total + "¿ø");
+		System.out.println("ì§€ê¸ˆê¹Œì§€ ë¨¹ì€ê¸ˆì•¡ì€? "+total + "ì›");
 		
 	}
 

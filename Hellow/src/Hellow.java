@@ -5,7 +5,7 @@ public class Hellow {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
-	/*  1¹ø
+	/*  1ë²ˆ
 		 int num = 10 ;          
 	    double num1= 3;
 		
@@ -16,7 +16,7 @@ public class Hellow {
 /*
 		int num = 0;
 		num = scan.nextInt();
-		System.out.println("ÀÔ·ÂÇÑ ¼ö´Â :" +num);
+		System.out.println("ì…ë ¥í•œ ìˆ˜ëŠ” :" +num);
 		scan.close();*/
 		
 	
@@ -36,11 +36,11 @@ public class Hellow {
 		int b = 3;
 		double c = (double)a/b;
 		
-		System.out.printf("1¹øÂ° :%d \n", a+b);
-		System.out.printf("2¹øÂ° :%d \n", a-b);
-		System.out.printf("3¹øÂ° :%d \n", a*b);
-		System.out.printf("4¹øÂ° :%f \n", c);   //¾Æ...¼Ò¼öÁ¡
-		System.out.println("5¹ø¤Š : "+ a%b);
+		System.out.printf("1ë²ˆì§¸ :%d \n", a+b);
+		System.out.printf("2ë²ˆì§¸ :%d \n", a-b);
+		System.out.printf("3ë²ˆì§¸ :%d \n", a*b);
+		System.out.printf("4ë²ˆì§¸ :%f \n", c);   //ì•„...ì†Œìˆ˜ì 
+		System.out.println("5ë²ˆì¨° : "+ a%b);
 	
 		
 		*/

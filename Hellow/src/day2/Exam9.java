@@ -1,15 +1,15 @@
 package day2;
-/* ¼Ò¼ö : ¾à¼ö°¡ 1 °ú ÀÚ±âÀÚ½Å¸¸ ÀÖ´Â¼ö ,¾à¼ö°¡ 2°³ÀÎ¼ö
- * ¾à¼ö : ÀÚ½Åº¸´Ù ÀÛ°Å³ª °°Àº ¼öÁß¿¡¼­ ³ª´©¾î ³ª¸ÓÁö°¡ 0ÀÎ¼ö
- * 4ÀÇ ¾à¼ö : 1,2,4
+/* ì†Œìˆ˜ : ì•½ìˆ˜ê°€ 1 ê³¼ ìžê¸°ìžì‹ ë§Œ ìžˆëŠ”ìˆ˜ ,ì•½ìˆ˜ê°€ 2ê°œì¸ìˆ˜
+ * ì•½ìˆ˜ : ìžì‹ ë³´ë‹¤ ìž‘ê±°ë‚˜ ê°™ì€ ìˆ˜ì¤‘ì—ì„œ ë‚˜ëˆ„ì–´ ë‚˜ë¨¸ì§€ê°€ 0ì¸ìˆ˜
+ * 4ì˜ ì•½ìˆ˜ : 1,2,4
  * 
- * num:ÀÔ·Â¹ÞÀºÁ¤¼ö
- * cnt: ¾à¼öÀÇ°¹¼ö
- * i: ¹Ýº¹¹®¿¡¼­ »ç¿ëÇÒ º¯¼ö
- * ¹Ýº¹È½¼ö : i´Â 1ºÎÅÍ mumº¸´Ù ÀÛ°Å³ª °°À» ¶§ 1°¡Áö¾¿ Áõ°¡ÇÑ´Ù
- * ½ÇÇà¹® -i°¡ numÀÇ ¾à¼öÀÌ¸é ¾à¼öÀÇ °¹¼ö¸¦ ÇÏ³ªÁõ°¡
- * ¹Ýº¹¹® Á¾·áÈÄ ¾à¼öÀÇ °¹¼ö°¡ 2°³ÀÌ¸é ¼Ò¼ö¶ó°í Ãâ·Â
- * 2°³°¡ ¾Æ´Ï¸é ¼Ò¼ö°¡ ¾Æ´ÔÀÌ¶ó Ãâ·Â
+ * num:ìž…ë ¥ë°›ì€ì •ìˆ˜
+ * cnt: ì•½ìˆ˜ì˜ê°¯ìˆ˜
+ * i: ë°˜ë³µë¬¸ì—ì„œ ì‚¬ìš©í•  ë³€ìˆ˜
+ * ë°˜ë³µíšŸìˆ˜ : iëŠ” 1ë¶€í„° mumë³´ë‹¤ ìž‘ê±°ë‚˜ ê°™ì„ ë•Œ 1ê°€ì§€ì”© ì¦ê°€í•œë‹¤
+ * ì‹¤í–‰ë¬¸ -iê°€ numì˜ ì•½ìˆ˜ì´ë©´ ì•½ìˆ˜ì˜ ê°¯ìˆ˜ë¥¼ í•˜ë‚˜ì¦ê°€
+ * ë°˜ë³µë¬¸ ì¢…ë£Œí›„ ì•½ìˆ˜ì˜ ê°¯ìˆ˜ê°€ 2ê°œì´ë©´ ì†Œìˆ˜ë¼ê³  ì¶œë ¥
+ * 2ê°œê°€ ì•„ë‹ˆë©´ ì†Œìˆ˜ê°€ ì•„ë‹˜ì´ë¼ ì¶œë ¥
  * 
  * 
  */
@@ -22,17 +22,17 @@ public class Exam9 {
 	
 			int num;
 			int i;
-			int cnt; //¾à¼öÀÇ °¹¼ö
+			int cnt; //ì•½ìˆ˜ì˜ ê°¯ìˆ˜
 			num = scan.nextInt();
-			//¹Ýº¹È½¼ö : i´Â 1ºÎÅÍ mumº¸´Ù ÀÛ°Å³ª °°À» ¶§ 1°¡Áö¾¿ Áõ°¡ÇÑ´Ù
+			//ë°˜ë³µíšŸìˆ˜ : iëŠ” 1ë¶€í„° mumë³´ë‹¤ ìž‘ê±°ë‚˜ ê°™ì„ ë•Œ 1ê°€ì§€ì”© ì¦ê°€í•œë‹¤
 			for( i=1,cnt=0 ; i<=num ; i++){ 
 				if(num % i ==0 ){
 					cnt++;
 				}
 			    }if(cnt ==2 ){
-					System.out.println(num+"´Â ¼Ò¼ö");
+					System.out.println(num+"ëŠ” ì†Œìˆ˜");
 				}else{
-					System.out.println(num+"´Â ¼Ò¼ö°¡¾Æ´Õ´Ï´Ù");
+					System.out.println(num+"ëŠ” ì†Œìˆ˜ê°€ì•„ë‹™ë‹ˆë‹¤");
 				}
 			}
 	 

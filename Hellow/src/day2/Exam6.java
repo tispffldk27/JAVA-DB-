@@ -12,18 +12,18 @@ public class Exam6 {
 		
 		switch(num){
 		case 1: case 3: case 5: case 7: case 8: case 10: case 12:
-			System.out.println("31ÀÏ");
+			System.out.println("31ì¼");
 			break;
 		case 4: case 6: case 9: case 11:
-			System.out.println("30ÀÏ");
+			System.out.println("30ì¼");
 			break;
 		case 2:
-			System.out.println("28ÀÏ");
+			System.out.println("28ì¼");
 			break;
 		
 			
 		default:
-			System.out.println("Àß¸ø ÀÔ·ÂÇÏ¼Ì½À´Ï´Ù");
+			System.out.println("ì˜ëª» ì…ë ¥í•˜ì…¨ìŠµë‹ˆë‹¤");
 				}
 	}
 

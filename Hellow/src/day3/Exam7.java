@@ -4,8 +4,8 @@ public class Exam7 {
 
 	public static void main(String[] args) {
 
-			int i;	//ÁÙ
-			int j;	//*°¹¼ö
+			int i;	//ì¤„
+			int j;	//*ê°¯ìˆ˜
 			int num =6; 
 			          
 			

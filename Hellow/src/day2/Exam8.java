@@ -12,7 +12,7 @@ public class Exam8 {
 			//System.out.println(+sum );
 			//sum = 0;
 		}
-		System.out.println("1ºÎÅÍ 10±îÁöÀÇ ÇÕ : "+sum);
+		System.out.println("1ë¶€í„° 10ê¹Œì§€ì˜ í•© : "+sum);
 	}
 
 }

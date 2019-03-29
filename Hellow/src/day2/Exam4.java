@@ -6,24 +6,24 @@ public class Exam4 {
 
 	public static void main(String[] args) {
 		 Scanner scan =new Scanner(System.in);
-		 // 2ÀÇ ¹è¼öÀÌ¸é 2¹è¼öÃâ·Â
-		 // 3ÀÇ¹è¼ö¸é 3¹è¼ö
-		 //6¹è¼ö¸é ¹è¼ö
-		 //2,3,6ÀÇ ¹è¼ö°¡¾Æ´Ï¸é ¤¿¤·´Ï¶ó°í
-		 //num = 6 => 6ÀÇ¹è¼öÀÔ´Ï´Ù
+		 // 2ì˜ ë°°ìˆ˜ì´ë©´ 2ë°°ìˆ˜ì¶œë ¥
+		 // 3ì˜ë°°ìˆ˜ë©´ 3ë°°ìˆ˜
+		 //6ë°°ìˆ˜ë©´ ë°°ìˆ˜
+		 //2,3,6ì˜ ë°°ìˆ˜ê°€ì•„ë‹ˆë©´ ã…ã…‡ë‹ˆë¼ê³ 
+		 //num = 6 => 6ì˜ë°°ìˆ˜ì…ë‹ˆë‹¤
 		 
 		 int num;
 		 num = scan.nextInt();
 		 
 		 if(num %2 == 0 && num % 3 !=0){
-			 System.out.println(+num+"´Â 2ÀÇ¹è¼ö");
+			 System.out.println(+num+"ëŠ” 2ì˜ë°°ìˆ˜");
 			 
 		 }else if(num % 3 ==0 && num % 2 !=0){
-			 System.out.println(+num+"´Â 3ÀÇ¹è¼ö");
+			 System.out.println(+num+"ëŠ” 3ì˜ë°°ìˆ˜");
 		 }else if(num % 6 ==0){
-			 System.out.println(+num+"´Â 6ÀÇ ¹è¼ö");
+			 System.out.println(+num+"ëŠ” 6ì˜ ë°°ìˆ˜");
 		 }else{
-			 System.out.println(num+"´Â 2,3,6ÀÇ ¹è¼ö°¡ ¾Æ´Õ´Ï´Ù");
+			 System.out.println(num+"ëŠ” 2,3,6ì˜ ë°°ìˆ˜ê°€ ì•„ë‹™ë‹ˆë‹¤");
 		 }
 		 
 		 

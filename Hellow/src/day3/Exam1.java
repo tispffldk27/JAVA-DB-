@@ -14,18 +14,18 @@ public class Exam1 {
 			}
 			
 		}			
-		System.out.println("1ºÎÅÍ 10±îÁöÀÇ Â¦ÀÇÇÕ :" +sum);
+		System.out.println("1ë¶€í„° 10ê¹Œì§€ì˜ ì§ì˜í•© :" +sum);
 		
 		
 		for(num=2,sum=0;num<=10;num+=2){
 			sum += num;
 		}
-		System.out.println("¹æ¹ı2 :1ºÎÅÍ 10±îÁöÀÇ Â¦ÀÇÇÕ :" +sum);
+		System.out.println("ë°©ë²•2 :1ë¶€í„° 10ê¹Œì§€ì˜ ì§ì˜í•© :" +sum);
 	
 		for(num=1,sum=0; num<=5;num++){
 			sum+=num*2;
 		}
-		System.out.println("¹æ¹ı3 :1ºÎÅÍ 10±îÁöÀÇ Â¦ÀÇÇÕ :" +sum);
+		System.out.println("ë°©ë²•3 :1ë¶€í„° 10ê¹Œì§€ì˜ ì§ì˜í•© :" +sum);
 	}
 
 }

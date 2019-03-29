@@ -1,7 +1,7 @@
 package day2;
 
 import java.util.Scanner;
-//min~max »çÀÌÀÇ Á¤¼ö¸¦ ·£´ıÀ¸·Î »ı¼ºÇÏ´ÂÄÚµå
+//min~max ì‚¬ì´ì˜ ì •ìˆ˜ë¥¼ ëœë¤ìœ¼ë¡œ ìƒì„±í•˜ëŠ”ì½”ë“œ
 public class Exam7 {
 
 	public static void main(String[] args) {
@@ -10,26 +10,26 @@ public class Exam7 {
 		int min = 1;
 		int max = 3; 
 		
-			//min~max »çÀÌÀÇ Á¤¼ö¸¦ ·£´ıÀ¸·Î »ı¼ºÇÏ´ÂÄÚµå
-			//comÀÌ °¡À§(1) ¹ÙÀ§(2) º¸(3)Áß¿¡¼­ ·£´ıÀ¸·Î ÇÏ³ª ¼±ÅÃ
+			//min~max ì‚¬ì´ì˜ ì •ìˆ˜ë¥¼ ëœë¤ìœ¼ë¡œ ìƒì„±í•˜ëŠ”ì½”ë“œ
+			//comì´ ê°€ìœ„(1) ë°”ìœ„(2) ë³´(3)ì¤‘ì—ì„œ ëœë¤ìœ¼ë¡œ í•˜ë‚˜ ì„ íƒ
 		int com = (int)(Math.random() * (max-min +1) + min) ;
 		int user = 0;
-		System.out.print("<°¡À§(1) ¹ÙÀ§(2) º¸(3)Áß ÇÏ³ª¸¦ ÀÔ·ÂÇÏ½Ã¿À: >\n");
+		System.out.print("<ê°€ìœ„(1) ë°”ìœ„(2) ë³´(3)ì¤‘ í•˜ë‚˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤: >\n");
 		user = scan.nextInt();
 		System.out.println(com) ;
 		
 		switch (user - com){
 		case 2: case -1:
-				System.out.println("´ç½ÅÀÌ Á³½À´Ï´Ù.");
+				System.out.println("ë‹¹ì‹ ì´ ì¡ŒìŠµë‹ˆë‹¤.");
 				break;
 		case 1: case -2:
-			System.out.println("´ç½ÅÀÌ Á³½À´Ï´Ù.");
+			System.out.println("ë‹¹ì‹ ì´ ì¡ŒìŠµë‹ˆë‹¤.");
 			break;
 		case 0: 
-			System.out.println("ºñ°å½À´Ï´Ù.");
+			System.out.println("ë¹„ê²¼ìŠµë‹ˆë‹¤.");
 			
 		}
-		//System.out.println( com+"ÄÄÇ»ÅÍ´Â ");
+		//System.out.println( com+"ì»´í“¨í„°ëŠ” ");
 	}
 
 }

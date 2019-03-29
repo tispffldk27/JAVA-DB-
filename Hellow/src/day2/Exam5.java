@@ -6,25 +6,25 @@ public class Exam5 {
 
 	public static void main(String[] args) {
 		 Scanner scan =new Scanner(System.in);
-		 //Á¶°Ç¹® ÇĞÁ¡..  
+		 //ì¡°ê±´ë¬¸ í•™ì ..  
 		 int num;
 		 num = scan.nextInt();
 		 
 		 if(num >=90 && num <=100 ){
-			 System.out.println(+num+"´Â A");
+			 System.out.println(+num+"ëŠ” A");
 		 }else if(num >=80 && num <90){
-			 System.out.println(+num+"´Â B");
+			 System.out.println(+num+"ëŠ” B");
 		 }else if(num >=70 && num <80){
-			 System.out.println(+num+"´Â C");
+			 System.out.println(+num+"ëŠ” C");
 		 }else if(num >=60 && num <70){
-			 System.out.println(+num+"´Â D");
+			 System.out.println(+num+"ëŠ” D");
 		 }else if(num >=0 && num <60){
-			 System.out.println(+num+"´Â F");
+			 System.out.println(+num+"ëŠ” F");
 		 }else if(num <0 || num <100){
-			 System.out.println(+num+"Àß¸øµÈ Á¡¼öÀÔ´Ï´Ù");	 
+			 System.out.println(+num+"ì˜ëª»ëœ ì ìˆ˜ì…ë‹ˆë‹¤");	 
 		 		 
 		 }else{
-			 System.out.println(num+"Àß¸øµÈ Á¡¼ö");
+			 System.out.println(num+"ì˜ëª»ëœ ì ìˆ˜");
 		 }
 		 scan.close();
 		 

@@ -5,28 +5,28 @@ import java.util.Scanner;
 public class Exam3 {
 
 	public static void main(String[] args) {
-		//µÎ ¼ö°¡ ¼­·Î¼ÒÀÎÁö ÆÇº°ÇÏ¼¼¿ä 
-		//¼­·Î¼Ò¶õ µÎ ¼öÀÇ ÃÖ´ë °ø¾à¼ö°¡ 1ÀÎ µÎ »çÀÌÀÇ °ü°è¸¦ ¸»ÇÔ
+		//ë‘ ìˆ˜ê°€ ì„œë¡œì†Œì¸ì§€ íŒë³„í•˜ì„¸ìš” 
+		//ì„œë¡œì†Œë€ ë‘ ìˆ˜ì˜ ìµœëŒ€ ê³µì•½ìˆ˜ê°€ 1ì¸ ë‘ ì‚¬ì´ì˜ ê´€ê³„ë¥¼ ë§í•¨
 		Scanner scan = new Scanner(System.in);
 	
 		
 		int i, gcd=1;
-		int num1; //ÀÔ·Â°ª 1 
-		int num2; //ÀÔ·Â°ª 2
+		int num1; //ì…ë ¥ê°’ 1 
+		int num2; //ì…ë ¥ê°’ 2
 		
 		//num1 = scan.nextInt();
 		//num2 = scan.nextInt();         
 		
-		//ÃÖ´ë°ø¾à¼ö num1
+		//ìµœëŒ€ê³µì•½ìˆ˜ num1
 		for(i=1;i<=num1;i++){
-			//i°¡ num1ÀÇ ¾à¼öÀÌ(°í) i°¡ num2ÀÇ ¾à¼öÀÌ¸é
+			//iê°€ num1ì˜ ì•½ìˆ˜ì´(ê³ ) iê°€ num2ì˜ ì•½ìˆ˜ì´ë©´
 			if(num1 % i ==0 && num2 %i ==0 ){
-				gcd =i;     	//gcd¿¡ i¸¦ ÀúÀåÇÑ´Ù.
+				gcd =i;     	//gcdì— ië¥¼ ì €ì¥í•œë‹¤.
 				
 			}if(gcd ==1){
-					System.out.println(num1+"°ú "+num2+"¼­·Î¼Ò °ü°è "+gcd);  
+					System.out.println(num1+"ê³¼ "+num2+"ì„œë¡œì†Œ ê´€ê³„ "+gcd);  
 				}else{
-					System.out.println(num1+"°ú "+num2+"¼­·Î¼Ò °ü°è°¡¾Æ´Ô "+gcd); 	
+					System.out.println(num1+"ê³¼ "+num2+"ì„œë¡œì†Œ ê´€ê³„ê°€ì•„ë‹˜ "+gcd); 	
 				}
 			
 			

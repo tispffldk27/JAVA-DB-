@@ -9,15 +9,15 @@ public class Exam2 {
 		Scanner scan = new Scanner(System.in);
 		
 		int num ;
-		System.out.println("³ªÀÌ¸¦ ÀÔ·ÂÇÏ¼¼¿ä");
+		System.out.println("ë‚˜ì´ë¥¼ ì…ë ¥í•˜ì„¸ìš”");
 		num = scan.nextInt();
 		
 		if ( num >= 20){
-			System.out.println("¼ºÀÎ");
+			System.out.println("ì„±ì¸");
 		}
-		//À§ÀÇ Á¶°Ç½ÄÀÌ °ÅÁşÀÌ¸é 
+		//ìœ„ì˜ ì¡°ê±´ì‹ì´ ê±°ì§“ì´ë©´ 
 		else {
-			System.out.println("Ã»¼Ò³â");
+			System.out.println("ì²­ì†Œë…„");
 		}
 
 	}

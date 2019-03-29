@@ -1,4 +1,4 @@
-package day3;    //ÃÖ´ë°ø¾à¼ö Ãâ·ÂÇÏ´Â¹æ¹ý
+package day3;    //ìµœëŒ€ê³µì•½ìˆ˜ ì¶œë ¥í•˜ëŠ”ë°©ë²•
 
 import java.util.Scanner;
 
@@ -9,23 +9,23 @@ public class Exam2 {
 		
 		Scanner scan = new Scanner(System.in);
 			int i, gcd=1;
-			int num1=8; //ÀÔ·Â°ª 1 
-			int num2=12; //ÀÔ·Â°ª 2
+			int num1=8; //ìž…ë ¥ê°’ 1 
+			int num2=12; //ìž…ë ¥ê°’ 2
 			
 			/*num1 = scan.nextInt();
-			num2 = scan.nextInt();         ÀÔ·Â¼ö³Ö±â*/
+			num2 = scan.nextInt();         ìž…ë ¥ìˆ˜ë„£ê¸°*/
 			
-			//ÃÖ´ë°ø¾à¼ö num1
+			//ìµœëŒ€ê³µì•½ìˆ˜ num1
 			for(i=1;i<=num1;i++){
-				//i°¡ num1ÀÇ ¾à¼öÀÌ(°í) i°¡ num2ÀÇ ¾à¼öÀÌ¸é
+				//iê°€ num1ì˜ ì•½ìˆ˜ì´(ê³ ) iê°€ num2ì˜ ì•½ìˆ˜ì´ë©´
 				if(num1 % i ==0 && num2 %i ==0 )
 				{
-					gcd =i;     	//gcd¿¡ i¸¦ ÀúÀåÇÑ´Ù.
+					gcd =i;     	//gcdì— ië¥¼ ì €ìž¥í•œë‹¤.
 					
 				}  
 										
 			}
-			System.out.println(num1+"°ú "+num2+"ÀÇ ÃÖ´ë °ø¾à¼ö : "+gcd); //1,2,4 ´©ÀûÀúÀåµÇ´Âµ¥ ¸¶Áö¸·4°¡Ãâ·Â
+			System.out.println(num1+"ê³¼ "+num2+"ì˜ ìµœëŒ€ ê³µì•½ìˆ˜ : "+gcd); //1,2,4 ëˆ„ì ì €ìž¥ë˜ëŠ”ë° ë§ˆì§€ë§‰4ê°€ì¶œë ¥
 			
 			
 	}		

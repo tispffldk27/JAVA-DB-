@@ -10,14 +10,14 @@ Scanner scan = new Scanner(System.in);
 	
 		
 		int i, lcm=1;
-		int num1=10; //ÀÔ·Â°ª 1 
-		int num2=15; //ÀÔ·Â°ª 2
+		int num1=10; //ì…ë ¥ê°’ 1 
+		int num2=15; //ì…ë ¥ê°’ 2
 		
 		//num1 = scan.nextInt();
 		//num2 = scan.nextInt();         
 		int tmp;
 		if(num2>num1){
-			//µÎ ¼ö¸¦ ¹Ù²Û´Ù 
+			//ë‘ ìˆ˜ë¥¼ ë°”ê¾¼ë‹¤ 
 			tmp= num1;
 			num1= num2;
 			num2= tmp;
@@ -29,7 +29,7 @@ Scanner scan = new Scanner(System.in);
 				break;
 			}
 		}
-		System.out.println(num1+"°ú "+num2+"ÀÇ ÃÖ¼Ò °ø¾à¼ö : "+lcm); //
+		System.out.println(num1+"ê³¼ "+num2+"ì˜ ìµœì†Œ ê³µì•½ìˆ˜ : "+lcm); //
 	}
 }
 			

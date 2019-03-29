@@ -10,13 +10,13 @@ public class Exam3 {
 		int num =0;
 		
 		if(num==0){
-			System.out.println("0�Դϴ�.");
+			System.out.println("0입니다.");
 			
 		}else if(num ==1){
-			System.out.println("1�Դϴ�.");
+			System.out.println("1입니다.");
 	}
 		else{
-			System.out.println("0��1�̾ƴմϴ�");
+			System.out.println("0과1이아닙니다");
 		}
 	}
 }

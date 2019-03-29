@@ -11,9 +11,9 @@ public class Exam6 {
 		System.out.println("*****");
 		System.out.println("*****");
 		System.out.println("*****");*/
-			int i;	//ÁÙ
-			int j;	//*°¹¼ö
-			int num; //°ø¹é
+			int i;	//ì¤„
+			int j;	//*ê°¯ìˆ˜
+			int num; //ê³µë°±
 			int cnt;
 			          
 			
