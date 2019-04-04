@@ -1,0 +1,11 @@
+window-> preferences 
+
+메뉴창에서
+왼쪽 General 더블클릭 
+Appearance 더블클릭
+Colors and Fonts 클릭
+
+Java항목 클릭
+밑으로내려서  Java Editor Text Font 더블클릭후 
+
+크기조절한다음 Apply로 확인 그리고 OK
