@@ -1,0 +1,9 @@
+break와 continue
+
+break는 if 문을 동반하며 break문을 만나는 순간 반복문을 빠져나감
+continue는 if문을 동반하며 continue문을 만나면 아래 코드를 실행하지않는다.
+
+
+if(조건식1){
+	if(조건식2){
+		실행문
